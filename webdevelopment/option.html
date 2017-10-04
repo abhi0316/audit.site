@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script type='text/javascript'>
+        function addFields(){
+            // Number of inputs to create
+            var number = document.getElementById("member").value;
+            // Container <div> where dynamic content will be placed
+            
+            for (i=0;i<number;i++){
+                // Append a node with a random text
+            
+            var dummy = '<form ><input type="submit" value="done" size="5" float="right"></form>';
+            document.getElementById('wrapper').innerHTML += dummy;     
+            }
+        }
+    </script>
+</head
+<body>
+    <input type="text" id="member" name="member" value="">Number of members: (max. 10)<br />
+    <a href="#" id="filldetails" onclick="addFields()">Fill Details</a>
+    <div id="wrapper">
+    </div>
+</body>
+</html>

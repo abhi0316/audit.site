@@ -1,0 +1,313 @@
+<html>
+<head>
+<title>nest_input</title>
+<script type="text/javascript" language="javascript">
+function checkform()
+{
+    var f = document.forms["theform"].elements;
+    var cansubmit = true;
+
+    for (var i = 0; i < f.length; i++) {
+        if (f[i].value.length == 0) cansubmit = false;
+    }
+
+    if (cansubmit) {
+        document.getElementById('submitbutton').disabled = false;
+    }
+    else {
+        document.getElementById('submitbutton').disabled = 'disabled';
+    }
+}
+
+</script>
+
+</head>
+<body>
+<style type="text/css">
+    .container{
+        margin: auto;
+        height: auto;
+        width: auto;
+    }
+    .container1
+    {
+     
+     margin: auto;
+     padding-top: 10px;
+     height: auto;
+     width: auto;
+    } 
+    .left {
+    	display: block;
+    	margin-left:20px;
+        float: left;
+        padding-top:100px; 
+        margin-bottom: 20px;
+        padding: 10px;
+        height: auto;
+        width: auto;    
+        background-color:#DCDCDC;
+    }
+    .right {
+    	margin-bottom: 20px;
+    	margin-left:20px;
+    	float: left;
+    	height: auto;
+    	width: auto;    
+        padding: 10px;
+        background-color:#DCDCDC;    
+    }
+    .left1 {
+    	margin-bottom: 20px;
+    	margin-left:20px;
+    	float: left;
+    	height: auto;
+        width: auto;    
+        padding: 10px;
+        background-color: #DCDCDC;    
+    }
+    .left2 {
+    	margin-bottom: 20px;
+    	margin-left:20px;
+    	float: left;
+    	height: auto;
+        width: auto;    
+        padding: 10px;
+        background-color: #DCDCDC;    
+    }
+   h4
+   {
+   	text-align: center;
+   	
+   }
+   
+
+</style>
+
+
+<?php
+
+echo "abhi";
+
+?>
+
+
+
+
+
+<div class="container">
+    <div class="left" text-align="center"><h4>#@$%$%</h4>
+    
+    total:
+    <div class="blk" style="float: right;">
+    <input type="text" name="total" size="10" float="right" onKeyup="checkform()" /><br>
+    </div><br>
+    <br>
+    achieved:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10" onKeyup="checkform()" /><br>
+    </div><br>
+    <br>
+    percentage:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10" onKeyup="checkform()" /><br>
+    </div><br>
+    <br>
+    remaining:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10" onKeyup="checkform()" /><br>
+    
+    </div><br>
+    <br><br>
+    <input id="submitbutton" type="submit" disabled="disabled" value="Submit" style="float: right;" />
+    
+
+     </div>
+    <div class="right"><h4>#@$%$%</h4>
+    <form>
+    total:
+    <div class="blk" style="float: right;">
+    <input type="text" name="total" size="10" float="right"><br>
+    </div><br>
+    <br>
+    achieved:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br>
+    percentage:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br>
+    remaining:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    
+    </div><br>
+    <br><br>
+    <input type="submit" value="edit" style="float: right;">
+    </form> 
+    </div>
+    <div class="left1"><h4>#@$%$%</h4>
+    <form>
+    total:
+    <div class="blk" style="float: right;">
+    <input type="text" name="total" size="10" float="right"><br>
+    </div><br>
+    <br>
+    achieved:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br>
+    percentage:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br>
+    remaining:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    
+    </div><br>
+    <br><br>
+    <input type="submit" value="edit" style="float: right;">
+    </form>
+    </div>
+    <div class="left2"><h4>#@$%$%</h4>
+    <form>
+    total:
+    <div class="blk" style="float: right;">
+    <input type="text" name="total" size="10" float="right"><br>
+    </div><br>
+    <br>
+    achieved:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br>
+    percentage:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br>
+    remaining:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+
+    </div><br>
+    <br><br>
+    <input type="submit" value="edit" style="float: right;"> 
+    </form>
+    </div>
+<!--/div-->	
+<!--div class="container1"-->
+    <div class="left"><h4>#@$%$%</h4>
+    <form>
+    total:
+    <div class="blk" style="float: right;">
+    <input type="text" name="total" size="10" float="right"><br>
+    </div><br>
+    <br>
+    achieved:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br>
+    percentage:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br>
+    remaining:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br><br>
+    <input type="submit" value="edit" style="float: right;">
+
+    </form>
+    </div>
+    <div class="right"><h4>#@$%$%</h4>
+    <form>
+    total:
+    <div class="blk" style="float: right;">
+    <input type="text" name="total" size="10" float="right"><br>
+    </div><br>
+    <br>
+    achieved:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br>
+    percentage:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br>
+    remaining:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br><br>
+    <input type="submit" value="edit" style="float: right;">
+
+    </form>
+    </div>
+    <div class="left1"><h4>#@$%$%</h4>
+    <form>
+    total:
+    <div class="blk" style="float: right;">
+    <input type="text" name="total" size="10" float="right"><br>
+    </div><br>
+    <br>
+    achieved:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br>
+    percentage:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br>
+    remaining:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br><br>
+    <input type="submit" value="edit" style="float: right;">
+
+    </form>
+    </div>
+    <div class="left2"><h4>#@$%$%</h4>
+    <form>
+    total:
+    <div class="blk" style="float: right;">
+    <input type="text" name="total" size="10" float="right"><br>
+    </div><br>
+    <br>
+    achieved:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br>
+    percentage:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br>
+    remaining:
+    <div class="blk" style="float: right;">
+    <input type="text" name="achieved" size="10" padding-right="10"><br>
+    </div><br>
+    <br><br>
+    <input type="submit" value="edit" style="float: right;">
+
+    </form>
+    </div>
+</div>	
+
+</body>
+</html>
